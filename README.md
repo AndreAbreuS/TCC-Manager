@@ -19,25 +19,6 @@ O sistema possui as seguintes funcionalidades:
 
 Essas funcionalidades estão restringidas ao nivel de acesso de cada perfil (Aluno, Professor ou Administrador).
 
-## Tecnologias Utilizadas para o Desenvolvimento
-
-- TypeScript (TSX)
-- HTML5 & CSS3
-- React 19
-- Vite 6
-- Tailwind CSS v4.0
-- React Router DOM 7
-- Motion (Motion/React)
-- Lucide React
-- Node.js
-- Express 4
-- TSX (TypeScript Execute)
-- JSON Web Tokens (JWT)
-- BcryptJS
-- Multer
-- Banco de dados JSON local (json.db)
-- Módulo Node.js File System (fs)
-
 ## Como Rodar o Sistema Localmente
 
 **Pré-requisito:**  Node.js: Você precisará do Node.js instalado em sua máquina. Recomenda-se a versão LTS mais recente (versão 18, 20 ou 22).
@@ -115,6 +96,17 @@ Assim que o comando de inicialização for concluído, ele exibirá no terminal 
 - Orienta Projetos (Envia Feedbacks, responde a solicitações de reuniões, envia mensagens, avalia projeto)
 - Visualiza Dashboards estatísticos de projetos
 - Visualiza Catálogo de TCCs
+
+## Tecnologias Utilizadas para o Desenvolvimento
+
+- TypeScript (TSX)
+- HTML5 & CSS3
+- React 19
+- Tailwind CSS v4.0
+- Motion (Motion/React)
+- Lucide React
+- Node.js
+- Banco de dados JSON local (json.db)
 
 ## Observações
 
