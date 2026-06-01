@@ -115,3 +115,8 @@ Assim que o comando de inicialização for concluído, ele exibirá no terminal 
 - Orienta Projetos (Envia Feedbacks, responde a solicitações de reuniões, envia mensagens, avalia projeto)
 - Visualiza Dashboards estatísticos de projetos
 - Visualiza Catálogo de TCCs
+
+## Observações
+
+- Este é apenas um protótipo, o sistema está planejado para evoluir para um futuro lançamento com banco de dados e serviços separados da máquina local.
+- Mais informações técnicas sobre o desenvolvimento do software TCC Manager estão presentes na documentação de análise e elicitação de requisitos.
