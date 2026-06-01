@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Administrador Central",
+      "email": "admin@tcc.com",
+      "password": "$2a$10$XmVP/S.m.H7.B.v.z.C.e.e.v.v.v.v.v.v.v.v.v.v.v.v.v.v",
+      "role": "Admin",
+      "institutionId": "1778793674031",
+      "courseId": "1778793686618",
+      "createdAt": "2026-05-14T21:08:12.867Z"
+    },
+    {
+      "id": "1780326850472",
+      "name": "Andre Abreu",
+      "email": "andre@gmail.com",
+      "password": "$2b$10$ujhojKnzrZs0.0rZ2bAR/.VC017TYBVzDkBvZwn3OZzyNKG5zz80q",
+      "role": "Student",
+      "institutionId": "1778793674031",
+      "courseId": "1778793686618",
+      "createdAt": "2026-06-01T15:14:10.472Z"
+    },
+    {
+      "id": "1780326905123",
+      "name": "Julio Cesar",
+      "email": "julio@gmail.com",
+      "password": "$2b$10$zVagcYx8UQ9C1GG.tRUsNeEBzZ/kaJf8Gy0ifyxIIeO/qcS7P4qqe",
+      "role": "Professor",
+      "institutionId": "1778793674031",
+      "courseId": "",
+      "createdAt": "2026-06-01T15:15:05.123Z"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "1778793674031",
+      "name": "FATEC SCS"
+    },
+    {
+      "id": "1778793680794",
+      "name": "FATEC SBC"
+    },
+    {
+      "id": "1780326796292",
+      "name": "FATEC DIADEMA"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1778793686618",
+      "name": "ADS",
+      "institutionId": "1778793674031"
+    },
+    {
+      "id": "1778793694403",
+      "name": "GESTAO PROJ",
+      "institutionId": "1778793680794"
+    },
+    {
+      "id": "1778793700452",
+      "name": "MECANICA",
+      "institutionId": "1778793680794"
+    },
+    {
+      "id": "1778793705812",
+      "name": "SEG INFO",
+      "institutionId": "1778793674031"
+    },
+    {
+      "id": "1780326816752",
+      "name": "AMS",
+      "institutionId": "1780326796292"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1778793806420",
+      "title": "Sistema de Gestão de TCC",
+      "description": "Uma plataforma completa para gestão acadêmica e acompanhamento de projetos finais.",
+      "studentId": "1",
+      "teacherId": "",
+      "status": "Active",
+      "createdAt": "2026-05-14T21:23:26.420Z"
+    },
+    {
+      "id": "project-2",
+      "title": "Blockchain na Cadeia de Suprimentos",
+      "description": "Estudo sobre a aplicação de tecnologias descentralizadas para rastreamento de produtos.",
+      "studentId": "1",
+      "teacherId": "",
+      "status": "Completed",
+      "createdAt": "2026-05-14T21:25:26.420Z"
+    },
+    {
+      "id": "1780326970891",
+      "title": "TCC Manager",
+      "description": "Gerenciamento de TCCs",
+      "studentId": "1780326850472",
+      "teacherId": "1780326905123",
+      "status": "Active",
+      "inviteStatus": "Accepted",
+      "isApproved": true,
+      "createdAt": "2026-06-01T15:16:10.891Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1780327045410",
+      "projectId": "1780326970891",
+      "title": "Escopo do Projeto",
+      "description": "",
+      "deadline": "2026-06-11",
+      "status": "Completed",
+      "progress": 100,
+      "comments": []
+    }
+  ],
+  "submissions": [],
+  "meetings": [],
+  "templates": [],
+  "notifications": [],
+  "logs": [
+    {
+      "id": "1778793806421",
+      "userId": "1",
+      "action": "CREATE_PROJECT",
+      "details": "Created project: sadas",
+      "timestamp": "2026-05-14T21:23:26.421Z"
+    },
+    {
+      "id": "1780326970893",
+      "userId": "1780326850472",
+      "action": "CREATE_PROJECT",
+      "details": "Created project: TCC Manager",
+      "timestamp": "2026-06-01T15:16:10.893Z"
+    },
+    {
+      "id": "1780326990924",
+      "userId": "1780326905123",
+      "action": "ACCEPT_INVITE",
+      "details": "Orientador aceitou orientação do TCC: TCC Manager",
+      "timestamp": "2026-06-01T15:16:30.924Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1780327004448",
+      "projectId": "1780326970891",
+      "senderId": "1780326905123",
+      "senderRole": "Professor",
+      "content": "Bom dia!",
+      "sentAt": "2026-06-01T15:16:44.448Z"
+    },
+    {
+      "id": "1780327028519",
+      "projectId": "1780326970891",
+      "senderId": "1780326850472",
+      "senderRole": "Student",
+      "content": "Bom Dia!",
+      "sentAt": "2026-06-01T15:17:08.519Z"
+    }
+  ]
+}

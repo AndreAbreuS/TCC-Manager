@@ -1,0 +1,6 @@
+{
+  "name": "TCC Manager",
+  "description": "Sistema web para gerenciamento e acompanhamento de Trabalhos de Conclusão de Curso (TCC), centralizando processos acadêmicos entre alunos, orientadores e coordenadores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
