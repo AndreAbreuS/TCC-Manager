@@ -6,7 +6,7 @@ Sistema Web para gerenciamento de projetos de TCC. Com funcionalidades de criaç
 
 O sistema possui as seguintes funcionalidades:
 
-- Autoadastro de Contas
+- Autocadastro de Contas
 - Cadastro de Entidades (Instituições e Cursos)
 - Autenticação de Login
 - Criação de Projetos
