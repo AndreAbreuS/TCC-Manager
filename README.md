@@ -19,6 +19,39 @@ O sistema possui as seguintes funcionalidades:
 
 Essas funcionalidades estão restringidas ao nivel de acesso de cada perfil (Aluno, Professor ou Administrador).
 
+## Estrutura do projeto
+
+```
+├── src
+│   ├── layouts
+│   │   ├── layout.tsx
+│   ├── lib
+│   │   ├── api.ts
+│   │   ├── utils.ts
+│   ├── pages
+│   │   ├── AdminPanel.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── Login.tsx
+│   │   ├── ProjectDetails.tsx
+│   │   ├── Projects.tsx
+│   │   ├── PublicCatalog.tsx
+│   │   └── Register.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── .env
+├── .gitignore
+├── README.md
+├── db.json
+├── index.html
+├── metadata.json
+├── package-lock.json
+├── package.json
+├── server.ts
+├── tsconfig.json
+└── vite.config.ts
+```
+
 ## Como Rodar o Sistema Localmente
 
 **Pré-requisito:**  Node.js: Você precisará do Node.js instalado em sua máquina. Recomenda-se a versão LTS mais recente (versão 18, 20 ou 22).
