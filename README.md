@@ -39,8 +39,6 @@ Essas funcionalidades estão restringidas ao nivel de acesso de cada perfil (Alu
 │   ├── App.tsx
 │   ├── index.css
 │   └── main.tsx
-├── .env
-├── .gitignore
 ├── README.md
 ├── db.json
 ├── index.html
